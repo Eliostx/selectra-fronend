@@ -382,6 +382,7 @@ const menuSections = computed(() => {
       { title: 'Gestión Oferta Laboral', icon: 'mdi-briefcase-outline', to: { name: 'ofertasLaboralesAdm' } },
      { title: 'Gestión tipos preguntas', icon: 'mdi-format-list-bulleted-type', to: { name: 'gestionTiposPreguntas' } },
       { title: 'Gestión de áreas', icon: 'mdi-domain-outline', to: { name: 'gestionAreas' } },
+      { title: 'Gestión de cargos', icon: 'mdi-domain-outline', to: { name: 'gestionCargos' } },
       { title: 'Gestión Nivel Academicos', icon: 'mdi-format-list-bulleted-type', to: { name: 'gestionNivelAcademicos' } }
       { title: 'Gestión tipos preguntas', icon: 'mdi-format-list-bulleted-type', to: { name: 'gestionTiposPreguntas' } },
       { title: 'Gestión tipos documentos', icon: 'mdi-file-document-outline', to: { name: 'gestionTiposDocumentos' } }

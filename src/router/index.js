@@ -71,6 +71,12 @@ const router = createRouter({
       component: () => import('@/views/GestionAreasView.vue'),
       meta: { requiresAuth: true, roles: ['Administrador'] }
       },
+      {
+      path: '/cargos',
+      name: 'gestionCargos',
+      component: () => import('@/views/GestionCargosView.vue'),
+      meta: { requiresAuth: true, roles: ['Administrador'] }
+      },
     {
        path: '/NivelAcademicos',
        name: 'gestionNivelAcademicos',
